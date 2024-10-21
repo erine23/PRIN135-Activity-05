@@ -39,3 +39,17 @@ main {
     gap: 1.5rem;
     padding: 10%;
 }
+
+@media (max-width: 600px) {
+    main {
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;
+    }
+}   
+
+@media (max-width: 452px) {
+    main {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+}   
